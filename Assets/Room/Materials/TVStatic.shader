@@ -5,7 +5,7 @@
 //Applies a television static noise in screen space
 //Options for noise colors, resolution, and scaling to camera
  
-Shader "ddShaders/ddTVStatic"
+Shader "TVStatic"
 {
  
     Properties
@@ -63,7 +63,7 @@ Shader "ddShaders/ddTVStatic"
             {
                
                 fragmentInput o;
-                UNITY_INITIALIZE_OUTPUT(fragmentInput, o); //5-28-2016 added to fix d3d11 errors
+                UNITY_INITIALIZE_OUTPUT(fragmentInput, o); 
                
                 o.position = UnityObjectToClipPos (i.vertex);
                 o.texcoord0 = i.texcoord0;
@@ -79,7 +79,7 @@ Shader "ddShaders/ddTVStatic"
                
             }
  
-            //5-28-2016 changed VPOS to SV_POSITION to get rid of duplicate semantic error
+           
             fixed4 frag(float4 screenPos : SV_POSITION, fragmentInput i) : SV_Target
             {
                
@@ -90,7 +90,7 @@ Shader "ddShaders/ddTVStatic"
                 sc.xy *= i.camDist.xx;
                 sc.xy += 0.5;
  
-               //round the screen coordinates to give it a blocky appearance
+               //rounding the screen coordinates to give it a blocky appearance
                 sc.x = round(sc.x*_ResX)/_ResX;
                 sc.y = round(sc.y*_ResY)/_ResY;
                
