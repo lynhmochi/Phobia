@@ -227,6 +227,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5613180494684797624, guid: ad8070995dcf0ba458073a8108fad637,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613180494684797624, guid: ad8070995dcf0ba458073a8108fad637,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613180494684797626, guid: ad8070995dcf0ba458073a8108fad637,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5613180494919959052, guid: ad8070995dcf0ba458073a8108fad637,
         type: 3}
       propertyPath: m_LocalScale.z
