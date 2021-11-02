@@ -219,6 +219,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 855942922690192428, guid: c574815b51fd54c32bed70405cc22825,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400004, guid: 7b12ff0838c1bfc46970414ffe81e813, type: 3}
+    - target: {fileID: 855942923841465174, guid: c574815b51fd54c32bed70405cc22825,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400004, guid: 7b12ff0838c1bfc46970414ffe81e813, type: 3}
+    - target: {fileID: 855942924237999553, guid: c574815b51fd54c32bed70405cc22825,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400004, guid: 7b12ff0838c1bfc46970414ffe81e813, type: 3}
+    - target: {fileID: 855942924259843711, guid: c574815b51fd54c32bed70405cc22825,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400004, guid: 7b12ff0838c1bfc46970414ffe81e813, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c574815b51fd54c32bed70405cc22825, type: 3}
 --- !u!1001 &1824422499134730209
