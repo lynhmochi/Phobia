@@ -5,6 +5,6 @@ using UnityEngine;
 public class PlayGame : MonoBehaviour
 {
     public void Start() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex = 1);
+        
     }
 }
