@@ -132,7 +132,7 @@ PrefabInstance:
     - target: {fileID: 190849614226344680, guid: f30c173d283b5194bb0b02020125248c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 190849614226344680, guid: f30c173d283b5194bb0b02020125248c,
         type: 3}
@@ -188,6 +188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lighting
+      objectReference: {fileID: 0}
+    - target: {fileID: 190849615631700799, guid: f30c173d283b5194bb0b02020125248c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f30c173d283b5194bb0b02020125248c, type: 3}
@@ -270,7 +275,7 @@ PrefabInstance:
     - target: {fileID: 5125598561571960429, guid: 8af602c9dfd240c459c1f9d499aae6c5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5125598561571960429, guid: 8af602c9dfd240c459c1f9d499aae6c5,
         type: 3}
@@ -443,7 +448,7 @@ PrefabInstance:
     - target: {fileID: 5441756827094651683, guid: 4043a0434124b304c97e6263f71715db,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5441756827094651683, guid: 4043a0434124b304c97e6263f71715db,
         type: 3}
