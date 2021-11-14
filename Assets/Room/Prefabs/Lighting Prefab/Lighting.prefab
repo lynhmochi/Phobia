@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824422498270579426}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.361, y: -20.775, z: -3.213}
+  m_LocalPosition: {x: 36.278, y: -20.775, z: -8.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1824422498322636422}
@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824422498322636422}
   m_Layer: 0
-  m_Name: Lighting 1
+  m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,13 +183,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824422499191113550}
-  m_LocalRotation: {x: 0.19945088, y: 0.009957464, z: -0.012118868, w: 0.97978234}
-  m_LocalPosition: {x: -6, y: 148, z: -349}
+  m_LocalRotation: {x: 0.26465103, y: 0.7257118, z: -0.08394548, w: 0.6294881}
+  m_LocalPosition: {x: -11060, y: 5117, z: 4501}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1824422498322636422}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 23.022001, y: 0.91400003, z: -1.2310001}
+  m_LocalEulerAnglesHint: {x: 27.067001, y: 102.54401, z: 18.221}
 --- !u!108 &1824422499191113553
 Light:
   m_ObjectHideFlags: 0
