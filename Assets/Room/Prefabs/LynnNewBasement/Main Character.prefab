@@ -84,7 +84,7 @@ MonoBehaviour:
   MouseSensitivity: 2.4
   PlayerSpeed: 2.5
   RunningSpeed: 5
-  JumpSpeed: 2.5
+  JumpSpeed: 5
 --- !u!143 &2507478208932019891
 CharacterController:
   m_ObjectHideFlags: 0
@@ -400,7 +400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848275991718962, guid: 0ddea81a21def2441b61569e0a44ca14, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.605
+      value: 0.072
       objectReference: {fileID: 0}
     - target: {fileID: 4848275991718962, guid: 0ddea81a21def2441b61569e0a44ca14, type: 3}
       propertyPath: m_LocalPosition.z
@@ -436,8 +436,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 23342392489074882, guid: 0ddea81a21def2441b61569e0a44ca14,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23342392489074882, guid: 0ddea81a21def2441b61569e0a44ca14,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.80612457
+      objectReference: {fileID: 0}
+    - target: {fileID: 23825053526138626, guid: 0ddea81a21def2441b61569e0a44ca14,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23860838514473162, guid: 0ddea81a21def2441b61569e0a44ca14,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108003487599132438, guid: 0ddea81a21def2441b61569e0a44ca14,
         type: 3}
@@ -513,7 +528,7 @@ PrefabInstance:
         type: 3}
       propertyPath: lightGO
       value: 
-      objectReference: {fileID: 3237524381194348404}
+      objectReference: {fileID: 3238008981326694960}
     - target: {fileID: 205403723339406496, guid: 0ddea81a21def2441b61569e0a44ca14,
         type: 3}
       propertyPath: m_Size
@@ -542,9 +557,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3236933587661229882}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3237524381194348404 stripped
+--- !u!1 &3238008981326694960 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1718223860230222, guid: 0ddea81a21def2441b61569e0a44ca14,
+  m_CorrespondingSourceObject: {fileID: 1229193494168842, guid: 0ddea81a21def2441b61569e0a44ca14,
     type: 3}
   m_PrefabInstance: {fileID: 3236933587661229882}
   m_PrefabAsset: {fileID: 0}
